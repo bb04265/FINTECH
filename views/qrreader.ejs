@@ -285,7 +285,11 @@
     <script src="js/global.script.js"></script>
     <script src="js/instascan.min.js"></script>
     <script>
+<<<<<<< HEAD
    var jwtToken = sessionStorage.getItem("ourToken");
+=======
+      var jwtToken = sessionStorage.getItem("ourToken");
+>>>>>>> eb1b2f9be75d47a34b33247371323783d0e3d374
       let scanner = new Instascan.Scanner({
         video: document.getElementById("preview"),
       });
@@ -342,6 +346,11 @@
     //     });
     //   }
     //   pay();
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> eb1b2f9be75d47a34b33247371323783d0e3d374
       function pay(data){
           var from_fin_use_num = data;
           console.log(data);
@@ -363,6 +372,10 @@
           },
         });
       }
+<<<<<<< HEAD
+=======
+
+>>>>>>> eb1b2f9be75d47a34b33247371323783d0e3d374
       Instascan.Camera.getCameras()
         .then(function (cameras) {
           if (cameras.length > 0) {
@@ -374,6 +387,13 @@
         .catch(function (e) {
           console.error(e);
         });
+<<<<<<< HEAD
     </script>
   </body>
 </html>
+=======
+
+    </script>
+  </body>
+</html>
+>>>>>>> eb1b2f9be75d47a34b33247371323783d0e3d374
